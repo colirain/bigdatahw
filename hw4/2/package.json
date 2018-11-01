@@ -1,0 +1,11 @@
+{
+	"name": "twitter-hashtag-monitor",
+	"discription": "monitor hashtag in realtime.",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"socket.io": "*",
+		"express": "*",
+		"twit": "^2.2.5"
+	}
+}
