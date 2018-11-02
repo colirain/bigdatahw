@@ -20,8 +20,7 @@ server.listen(5000);
 
 io.sockets.on('connection', function (socket){
 	console.log('SOCKET CONNECTED\n');
-	var track_item = ['#job',"#data",'#funny'];
-
+	var track_item = ['#game',"#life",'#funny','#data','#love','#Hiring','#traffic','#photo','#Resist','#science'];
 	var twitterStream = t.stream(
 		'statuses/filter',
 		{track: track_item}
